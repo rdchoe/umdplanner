@@ -15,6 +15,9 @@
 		D75467B6225FC726009DE38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75467B4225FC726009DE38C /* LaunchScreen.storyboard */; };
 		D75467C1225FC726009DE38C /* umdplannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467C0225FC726009DE38C /* umdplannerTests.swift */; };
 		D75467CC225FC726009DE38C /* umdplannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467CB225FC726009DE38C /* umdplannerUITests.swift */; };
+		D75467E6225FD423009DE38C /* fitnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467E5225FD423009DE38C /* fitnessModel.swift */; };
+		D75467E8225FD42F009DE38C /* fitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467E7225FD42F009DE38C /* fitnessView.swift */; };
+		D75467EA225FD439009DE38C /* fitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467E9225FD439009DE38C /* fitnessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		D75467C7225FC726009DE38C /* umdplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = umdplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75467CB225FC726009DE38C /* umdplannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umdplannerUITests.swift; sourceTree = "<group>"; };
 		D75467CD225FC726009DE38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75467E5225FD423009DE38C /* fitnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fitnessModel.swift; path = ../../../fitnessModel.swift; sourceTree = "<group>"; };
+		D75467E7225FD42F009DE38C /* fitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fitnessView.swift; path = ../../../fitnessView.swift; sourceTree = "<group>"; };
+		D75467E9225FD439009DE38C /* fitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fitnessViewController.swift; path = ../../../fitnessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,7 @@
 		D75467DC225FD25A009DE38C /* models */ = {
 			isa = PBXGroup;
 			children = (
+				D75467E5225FD423009DE38C /* fitnessModel.swift */,
 			);
 			name = models;
 			path = "New Group";
@@ -142,6 +149,7 @@
 		D75467DD225FD26F009DE38C /* views */ = {
 			isa = PBXGroup;
 			children = (
+				D75467E7225FD42F009DE38C /* fitnessView.swift */,
 			);
 			name = views;
 			path = "New Group1";
@@ -150,6 +158,7 @@
 		D75467DE225FD29F009DE38C /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D75467E9225FD439009DE38C /* fitnessViewController.swift */,
 			);
 			name = controllers;
 			path = "New Group2";
@@ -286,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75467E8225FD42F009DE38C /* fitnessView.swift in Sources */,
 				D75467B1225FC724009DE38C /* umdplanner.xcdatamodeld in Sources */,
 				D75467AB225FC724009DE38C /* ViewController.swift in Sources */,
+				D75467E6225FD423009DE38C /* fitnessModel.swift in Sources */,
 				D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */,
+				D75467EA225FD439009DE38C /* fitnessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
