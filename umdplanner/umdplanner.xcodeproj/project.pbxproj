@@ -99,6 +99,9 @@
 		D75467A7225FC723009DE38C /* umdplanner */ = {
 			isa = PBXGroup;
 			children = (
+				D75467DE225FD29F009DE38C /* controllers */,
+				D75467DD225FD26F009DE38C /* views */,
+				D75467DC225FD25A009DE38C /* models */,
 				D75467A8225FC724009DE38C /* AppDelegate.swift */,
 				D75467AA225FC724009DE38C /* ViewController.swift */,
 				D75467AC225FC724009DE38C /* Main.storyboard */,
@@ -126,6 +129,30 @@
 				D75467CD225FC726009DE38C /* Info.plist */,
 			);
 			path = umdplannerUITests;
+			sourceTree = "<group>";
+		};
+		D75467DC225FD25A009DE38C /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		D75467DD225FD26F009DE38C /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		D75467DE225FD29F009DE38C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			path = "New Group2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
