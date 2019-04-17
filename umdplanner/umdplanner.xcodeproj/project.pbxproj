@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738BE2266A85B00BB068C /* FitnessViewController.swift */; };
+		D71738C12266A86A00BB068C /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C02266A86A00BB068C /* FitnessView.swift */; };
+		D71738C32266A87500BB068C /* FitnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C22266A87500BB068C /* FitnessModel.swift */; };
 		D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467A8225FC724009DE38C /* AppDelegate.swift */; };
-		D75467AB225FC724009DE38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467AA225FC724009DE38C /* ViewController.swift */; };
 		D75467AE225FC724009DE38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75467AC225FC724009DE38C /* Main.storyboard */; };
 		D75467B1225FC724009DE38C /* umdplanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D75467AF225FC724009DE38C /* umdplanner.xcdatamodeld */; };
 		D75467B3225FC726009DE38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75467B2225FC726009DE38C /* Assets.xcassets */; };
 		D75467B6225FC726009DE38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75467B4225FC726009DE38C /* LaunchScreen.storyboard */; };
 		D75467C1225FC726009DE38C /* umdplannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467C0225FC726009DE38C /* umdplannerTests.swift */; };
 		D75467CC225FC726009DE38C /* umdplannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467CB225FC726009DE38C /* umdplannerUITests.swift */; };
-		D75467E6225FD423009DE38C /* fitnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467E5225FD423009DE38C /* fitnessModel.swift */; };
-		D75467E8225FD42F009DE38C /* fitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467E7225FD42F009DE38C /* fitnessView.swift */; };
-		D75467EA225FD439009DE38C /* fitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467E9225FD439009DE38C /* fitnessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D71738BE2266A85B00BB068C /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
+		D71738C02266A86A00BB068C /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
+		D71738C22266A87500BB068C /* FitnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessModel.swift; sourceTree = "<group>"; };
 		D75467A5225FC723009DE38C /* umdplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = umdplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75467A8225FC724009DE38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D75467AA225FC724009DE38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D75467AD225FC724009DE38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D75467B0225FC724009DE38C /* umdplanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = umdplanner.xcdatamodel; sourceTree = "<group>"; };
 		D75467B2225FC726009DE38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,9 +53,6 @@
 		D75467C7225FC726009DE38C /* umdplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = umdplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75467CB225FC726009DE38C /* umdplannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umdplannerUITests.swift; sourceTree = "<group>"; };
 		D75467CD225FC726009DE38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D75467E5225FD423009DE38C /* fitnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fitnessModel.swift; path = ../../../fitnessModel.swift; sourceTree = "<group>"; };
-		D75467E7225FD42F009DE38C /* fitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fitnessView.swift; path = ../../../fitnessView.swift; sourceTree = "<group>"; };
-		D75467E9225FD439009DE38C /* fitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = fitnessViewController.swift; path = ../../../fitnessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +80,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D71738BB2266A81C00BB068C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D71738BE2266A85B00BB068C /* FitnessViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D71738BC2266A83200BB068C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D71738C02266A86A00BB068C /* FitnessView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D71738BD2266A84000BB068C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D71738C22266A87500BB068C /* FitnessModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D754679C225FC723009DE38C = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +127,10 @@
 		D75467A7225FC723009DE38C /* umdplanner */ = {
 			isa = PBXGroup;
 			children = (
-				D75467DE225FD29F009DE38C /* controllers */,
-				D75467DD225FD26F009DE38C /* views */,
-				D75467DC225FD25A009DE38C /* models */,
+				D71738BD2266A84000BB068C /* Models */,
+				D71738BC2266A83200BB068C /* Views */,
+				D71738BB2266A81C00BB068C /* Controllers */,
 				D75467A8225FC724009DE38C /* AppDelegate.swift */,
-				D75467AA225FC724009DE38C /* ViewController.swift */,
 				D75467AC225FC724009DE38C /* Main.storyboard */,
 				D75467B2225FC726009DE38C /* Assets.xcassets */,
 				D75467B4225FC726009DE38C /* LaunchScreen.storyboard */,
@@ -135,33 +156,6 @@
 				D75467CD225FC726009DE38C /* Info.plist */,
 			);
 			path = umdplannerUITests;
-			sourceTree = "<group>";
-		};
-		D75467DC225FD25A009DE38C /* models */ = {
-			isa = PBXGroup;
-			children = (
-				D75467E5225FD423009DE38C /* fitnessModel.swift */,
-			);
-			name = models;
-			path = "New Group";
-			sourceTree = "<group>";
-		};
-		D75467DD225FD26F009DE38C /* views */ = {
-			isa = PBXGroup;
-			children = (
-				D75467E7225FD42F009DE38C /* fitnessView.swift */,
-			);
-			name = views;
-			path = "New Group1";
-			sourceTree = "<group>";
-		};
-		D75467DE225FD29F009DE38C /* controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D75467E9225FD439009DE38C /* fitnessViewController.swift */,
-			);
-			name = controllers;
-			path = "New Group2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,12 +289,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75467E8225FD42F009DE38C /* fitnessView.swift in Sources */,
+				D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */,
 				D75467B1225FC724009DE38C /* umdplanner.xcdatamodeld in Sources */,
-				D75467AB225FC724009DE38C /* ViewController.swift in Sources */,
-				D75467E6225FD423009DE38C /* fitnessModel.swift in Sources */,
 				D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */,
-				D75467EA225FD439009DE38C /* fitnessViewController.swift in Sources */,
+				D71738C12266A86A00BB068C /* FitnessView.swift in Sources */,
+				D71738C32266A87500BB068C /* FitnessModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
