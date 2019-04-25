@@ -35,10 +35,10 @@ class FitnessViewController: UIViewController, UITableViewDelegate, UITableViewD
         return cell
         
         
-    }
+    }   
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("FitnessViewController Loaded")
     }
 }

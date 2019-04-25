@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="-1654" y="321"/>
         </scene>
-        <!--View Controller-->
+        <!--View Exercise View Controller-->
         <scene sceneID="Vp6-Nd-ufl">
             <objects>
-                <viewController id="byn-eL-dQP" sceneMemberID="viewController">
+                <viewController id="byn-eL-dQP" customClass="viewExerciseViewController" customModule="umdplanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PdH-BZ-C5B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,20 +104,81 @@
             </objects>
             <point key="canvasLocation" x="-847" y="1086"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Exercise View Controller-->
         <scene sceneID="0lr-EP-2qs">
             <objects>
-                <viewController id="AKD-M6-PEY" sceneMemberID="viewController">
+                <viewController id="AKD-M6-PEY" customClass="addExerciseViewController" customModule="umdplanner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ruu-iB-oMs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create New Workout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TJ-3J-oUh">
+                                <rect key="frame" x="108" y="84" width="159" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Iba-gZ-QpZ">
+                                <rect key="frame" x="0.0" y="449" width="375" height="169"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uVa-vw-E8q">
+                                <rect key="frame" x="172.5" y="402" width="30" height="30"/>
+                                <state key="normal" title="Add"/>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3RQ-w2-NvJ">
+                                <rect key="frame" x="10" y="315" width="355" height="79"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ikz-0b-62M">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="8dJ-MU-Xhr">
+                                        <rect key="frame" x="0.0" y="14.5" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ykr-4V-zqD" customClass="DropDown" customModule="iOSDropDown">
+                                <rect key="frame" x="108" y="113" width="159" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5TJ-3J-oUh" firstAttribute="top" secondItem="BTl-06-3WV" secondAttribute="top" constant="20" id="BbL-s2-jva"/>
+                            <constraint firstItem="BTl-06-3WV" firstAttribute="trailing" secondItem="Iba-gZ-QpZ" secondAttribute="trailing" id="Csj-vS-PnY"/>
+                            <constraint firstItem="Iba-gZ-QpZ" firstAttribute="bottom" secondItem="BTl-06-3WV" secondAttribute="bottom" id="DH2-JO-h3S"/>
+                            <constraint firstItem="uVa-vw-E8q" firstAttribute="top" secondItem="3RQ-w2-NvJ" secondAttribute="bottom" constant="10" id="GJq-Se-A3f"/>
+                            <constraint firstItem="5TJ-3J-oUh" firstAttribute="centerX" secondItem="ruu-iB-oMs" secondAttribute="centerX" id="Nvr-Xy-nUs"/>
+                            <constraint firstItem="Iba-gZ-QpZ" firstAttribute="top" secondItem="uVa-vw-E8q" secondAttribute="bottom" constant="20" id="Um6-4a-Vp0"/>
+                            <constraint firstItem="Ykr-4V-zqD" firstAttribute="top" secondItem="5TJ-3J-oUh" secondAttribute="bottom" constant="10" id="ZXR-bc-CQ1"/>
+                            <constraint firstItem="Ykr-4V-zqD" firstAttribute="leading" secondItem="BTl-06-3WV" secondAttribute="leading" constant="108" id="cQx-eB-I5a"/>
+                            <constraint firstItem="BTl-06-3WV" firstAttribute="trailing" secondItem="3RQ-w2-NvJ" secondAttribute="trailing" constant="10" id="cdo-p7-pFA"/>
+                            <constraint firstItem="uVa-vw-E8q" firstAttribute="centerX" secondItem="ruu-iB-oMs" secondAttribute="centerX" id="cyM-bP-7mw"/>
+                            <constraint firstItem="BTl-06-3WV" firstAttribute="trailing" secondItem="Ykr-4V-zqD" secondAttribute="trailing" constant="108" id="eWH-H3-VJ9"/>
+                            <constraint firstItem="Iba-gZ-QpZ" firstAttribute="leading" secondItem="BTl-06-3WV" secondAttribute="leading" id="fmi-9J-RS5"/>
+                            <constraint firstItem="3RQ-w2-NvJ" firstAttribute="leading" secondItem="BTl-06-3WV" secondAttribute="leading" constant="10" id="oLR-gv-83A"/>
+                            <constraint firstItem="Ykr-4V-zqD" firstAttribute="centerX" secondItem="ruu-iB-oMs" secondAttribute="centerX" id="sMH-Wz-2lh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BTl-06-3WV"/>
                     </view>
+                    <connections>
+                        <outlet property="exerciseDropDown" destination="Ykr-4V-zqD" id="hMh-PL-oMW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7dq-Px-dns" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="1102"/>
+            <point key="canvasLocation" x="-15.199999999999999" y="1084.4077961019491"/>
         </scene>
         <!--fitnessNavigation-->
         <scene sceneID="qgZ-sE-VP7">
