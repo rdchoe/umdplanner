@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/robertchoe/code/School/436/umdplanner/umdplanner/umdplanner/Views/workoutCell.swift">
+   </FileRef>
+   <FileRef
       location = "group:umdplanner.xcodeproj">
    </FileRef>
    <FileRef
