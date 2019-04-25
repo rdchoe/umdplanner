@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import UIKit
+import CoreData
+class FitnessViewController: UIViewController {
+    
+}
