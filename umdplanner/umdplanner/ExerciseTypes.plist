@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Squat</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bench Press</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Deadlift</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shoulder Press</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Military Press</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Barbell Curl</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Incline Bench Press</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Front Sqaut</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bent Over Row</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hex Bar Deadlift</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sumo Deadlift</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Hip Thrust</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Romanian Deadlift</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Close Grip Bench Press</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Rack Pull</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Preacher Curl</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Barbell Shrug</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>T-Bar Row</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pendlay Row</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Decline Bench Press</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tricep Extension</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Box Squat</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Upright Row</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bulgarian Split Squat</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Stiff Legged Deadlift</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lying Tricep Extension</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Wrist Curl</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Barbell Lunge</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Good Morning</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Zercher Squat</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Split Squat</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Landmine Squat</string>
+		<key>Category</key>
+		<string>Barbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Pull Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Push Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dips</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Chin Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Bodyweight Squats</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Muscle Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>One Arm Push Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Sit Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Single Leg Squats</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Burpees</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Crunches</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lunges</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Handstand Push Ups</string>
+		<key>Category</key>
+		<string>Bodyweight</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Power Clean</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Snatch</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clean and Jerk</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clean</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Push Press</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Overhead Squat</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clean and Press</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Thruster</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Power Snatch</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Push Jerk</string>
+		<key>Category</key>
+		<string>Olympic</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Bench Press</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Curl</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Shoulder Press</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Incline Dumbbell Bench Press</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Row</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Lateral Raise</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Hammer Curl</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Tricep Extension</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Goblet Squat</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Fly</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Bulgarian</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Arnold Press</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Front Raise</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Lunge</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Incline Dumbbell Curl Standards</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lying Dumbbell Tricep Extension</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Pullover</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Concentration Curl</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Decline Dumbbell Bench Press</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Incline Concentration Fly</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dumbbell Reverse Fly</string>
+		<key>Category</key>
+		<string>Dumbbell</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Shed Leg Press</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Horizontal Leg Press</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Chest Press</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Leg Extension</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Shoulder Press</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Seated Leg Curl</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Calf Raise</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Lying Leg Curl</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Pec Deck Fly</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Hack Squat</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Vertical Leg Press</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Hip Abduction</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Machine Hip Adduction</string>
+		<key>Category</key>
+		<string>Machine</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Lat Pull Down</string>
+		<key>Category</key>
+		<string>Cable</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Seated Cable Row</string>
+		<key>Category</key>
+		<string>Cable</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tricep Pushdown</string>
+		<key>Category</key>
+		<string>Cable</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tricep Rope Pushdown</string>
+		<key>Category</key>
+		<string>Cable</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Face Pull</string>
+		<key>Category</key>
+		<string>Cable</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Cable Fly</string>
+		<key>Category</key>
+		<string>Cable</string>
+	</dict>
+</array>
+</plist>

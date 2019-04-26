@@ -13,6 +13,9 @@
 		D7097B7A227261DF001ABA6B /* addExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7097B79227261DF001ABA6B /* addExerciseViewController.swift */; };
 		D7097B7C227261FE001ABA6B /* viewExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7097B7B227261FE001ABA6B /* viewExerciseViewController.swift */; };
 		D7097B7E22727A45001ABA6B /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7097B7D22727A45001ABA6B /* iOSDropDown.framework */; };
+		D7097B8022729A2E001ABA6B /*  setCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7097B7F22729A2E001ABA6B /*  setCell.swift */; };
+		D7097B842272A9DD001ABA6B /* ExerciseTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7097B832272A9DD001ABA6B /* ExerciseTypes.plist */; };
+		D7097B882272AB09001ABA6B /* ExerciseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7097B872272AB09001ABA6B /* ExerciseType.swift */; };
 		D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738BE2266A85B00BB068C /* FitnessViewController.swift */; };
 		D71738C12266A86A00BB068C /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C02266A86A00BB068C /* FitnessView.swift */; };
 		D71738C32266A87500BB068C /* FitnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C22266A87500BB068C /* FitnessModel.swift */; };
@@ -55,6 +58,9 @@
 		D7097B79227261DF001ABA6B /* addExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addExerciseViewController.swift; sourceTree = "<group>"; };
 		D7097B7B227261FE001ABA6B /* viewExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExerciseViewController.swift; sourceTree = "<group>"; };
 		D7097B7D22727A45001ABA6B /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7097B7F22729A2E001ABA6B /*  setCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " setCell.swift"; sourceTree = "<group>"; };
+		D7097B832272A9DD001ABA6B /* ExerciseTypes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExerciseTypes.plist; sourceTree = "<group>"; };
+		D7097B872272AB09001ABA6B /* ExerciseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseType.swift; sourceTree = "<group>"; };
 		D71738BE2266A85B00BB068C /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
 		D71738C02266A86A00BB068C /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
 		D71738C22266A87500BB068C /* FitnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessModel.swift; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 				D723F1DE22718EC600E79DD0 /* workoutCell.swift */,
 				D71738C02266A86A00BB068C /* FitnessView.swift */,
 				D71BBE3C2271994600E66854 /* exerciseCell.swift */,
+				D7097B7F22729A2E001ABA6B /*  setCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				D71738C22266A87500BB068C /* FitnessModel.swift */,
+				D7097B872272AB09001ABA6B /* ExerciseType.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 				D75467AC225FC724009DE38C /* Main.storyboard */,
 				D75467B2225FC726009DE38C /* Assets.xcassets */,
 				D75467B4225FC726009DE38C /* LaunchScreen.storyboard */,
+				D7097B832272A9DD001ABA6B /* ExerciseTypes.plist */,
 				D75467B7225FC726009DE38C /* Info.plist */,
 				D75467AF225FC724009DE38C /* umdplanner.xcdatamodeld */,
 			);
@@ -322,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7097B842272A9DD001ABA6B /* ExerciseTypes.plist in Resources */,
 				D75467B6225FC726009DE38C /* LaunchScreen.storyboard in Resources */,
 				D75467B3225FC726009DE38C /* Assets.xcassets in Resources */,
 				D75467AE225FC724009DE38C /* Main.storyboard in Resources */,
@@ -443,6 +453,8 @@
 				D71BBE3D2271994600E66854 /* exerciseCell.swift in Sources */,
 				D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */,
 				D7097B7A227261DF001ABA6B /* addExerciseViewController.swift in Sources */,
+				D7097B8022729A2E001ABA6B /*  setCell.swift in Sources */,
+				D7097B882272AB09001ABA6B /* ExerciseType.swift in Sources */,
 				D723F1DF22718EC700E79DD0 /* workoutCell.swift in Sources */,
 				D75467B1225FC724009DE38C /* umdplanner.xcdatamodeld in Sources */,
 				D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */,
