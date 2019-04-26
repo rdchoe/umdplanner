@@ -20,6 +20,7 @@
 		D71738C12266A86A00BB068C /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C02266A86A00BB068C /* FitnessView.swift */; };
 		D71738C32266A87500BB068C /* FitnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C22266A87500BB068C /* FitnessModel.swift */; };
 		D71BBE3D2271994600E66854 /* exerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71BBE3C2271994600E66854 /* exerciseCell.swift */; };
+		D71F0A8B2273904100D739A4 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F0A8A2273904100D739A4 /* test.swift */; };
 		D723F1DF22718EC700E79DD0 /* workoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D723F1DE22718EC600E79DD0 /* workoutCell.swift */; };
 		D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467A8225FC724009DE38C /* AppDelegate.swift */; };
 		D75467AE225FC724009DE38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75467AC225FC724009DE38C /* Main.storyboard */; };
@@ -65,6 +66,7 @@
 		D71738C02266A86A00BB068C /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
 		D71738C22266A87500BB068C /* FitnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessModel.swift; sourceTree = "<group>"; };
 		D71BBE3C2271994600E66854 /* exerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseCell.swift; sourceTree = "<group>"; };
+		D71F0A8A2273904100D739A4 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		D723F1DE22718EC600E79DD0 /* workoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = workoutCell.swift; path = /Users/robertchoe/code/School/436/umdplanner/umdplanner/umdplanner/Views/workoutCell.swift; sourceTree = "<absolute>"; };
 		D75467A5225FC723009DE38C /* umdplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = umdplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75467A8225FC724009DE38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			children = (
 				D71738C22266A87500BB068C /* FitnessModel.swift */,
 				D7097B872272AB09001ABA6B /* ExerciseType.swift */,
+				D71F0A8A2273904100D739A4 /* test.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71BBE3D2271994600E66854 /* exerciseCell.swift in Sources */,
+				D71F0A8B2273904100D739A4 /* test.swift in Sources */,
 				D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */,
 				D7097B7A227261DF001ABA6B /* addExerciseViewController.swift in Sources */,
 				D7097B8022729A2E001ABA6B /*  setCell.swift in Sources */,
