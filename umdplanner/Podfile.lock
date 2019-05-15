@@ -1,16 +1,72 @@
 PODS:
+  - Charts (3.3.0):
+    - Charts/Core (= 3.3.0)
+  - Charts/Core (3.3.0)
+  - FSCalendar (2.8.0)
   - iOSDropDown (0.2.7)
+  - MaterialComponents/AnimationTiming (84.1.1)
+  - MaterialComponents/Buttons (84.1.1):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+ShapeThemer (84.1.1)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Shape
+  - MaterialComponents/Ink (84.1.1):
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (84.1.1)
+  - MaterialComponents/private/Math (84.1.1)
+  - MaterialComponents/Ripple (84.1.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Shape (84.1.1):
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - MaterialComponents/ShadowElevations (84.1.1)
+  - MaterialComponents/ShadowLayer (84.1.1):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (84.1.1):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (84.1.1):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Typography (84.1.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
 
 DEPENDENCIES:
+  - Charts
+  - FSCalendar
   - iOSDropDown
+  - MaterialComponents/Buttons
+  - "MaterialComponents/Buttons+ShapeThemer"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Charts
+    - FSCalendar
     - iOSDropDown
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
 
 SPEC CHECKSUMS:
+  Charts: ec1f57f9340054155691e84d4544a1d239d382c5
+  FSCalendar: 3a5ed3636e2ba1b83ebebfcf0c2603105a6f5efe
   iOSDropDown: 7a4cfc67d5166f319858747b63cd2f7760c4fb4b
+  MaterialComponents: 85832ad0a4a7c0113f67330fa135b9702aae7f93
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
 
-PODFILE CHECKSUM: 8fac582c5f69b4327ab1e8c6ed6d138f17d9c2df
+PODFILE CHECKSUM: 8550256aa853c59990d066913d1277ba4cdd18ab
 
 COCOAPODS: 1.6.1

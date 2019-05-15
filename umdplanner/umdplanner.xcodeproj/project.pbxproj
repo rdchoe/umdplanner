@@ -17,18 +17,34 @@
 		D7097B842272A9DD001ABA6B /* ExerciseTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7097B832272A9DD001ABA6B /* ExerciseTypes.plist */; };
 		D7097B882272AB09001ABA6B /* ExerciseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7097B872272AB09001ABA6B /* ExerciseType.swift */; };
 		D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738BE2266A85B00BB068C /* FitnessViewController.swift */; };
-		D71738C12266A86A00BB068C /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C02266A86A00BB068C /* FitnessView.swift */; };
 		D71738C32266A87500BB068C /* FitnessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71738C22266A87500BB068C /* FitnessModel.swift */; };
 		D71BBE3D2271994600E66854 /* exerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71BBE3C2271994600E66854 /* exerciseCell.swift */; };
-		D71F0A8B2273904100D739A4 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71F0A8A2273904100D739A4 /* test.swift */; };
 		D723F1DF22718EC700E79DD0 /* workoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D723F1DE22718EC600E79DD0 /* workoutCell.swift */; };
+		D748A18D22821169000226EC /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = D748A18C22821169000226EC /* Montserrat */; };
+		D748A18F228211C9000226EC /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D748A18E228211C9000226EC /* Montserrat-Regular.ttf */; };
+		D748A191228212FF000226EC /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D748A190228212FF000226EC /* Montserrat-ExtraBold.ttf */; };
+		D748A19E22821349000226EC /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D748A19622821323000226EC /* Merriweather-Regular.ttf */; };
+		D751A82422892D580068712B /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A82322892D580068712B /* SleepViewController.swift */; };
+		D751A8262289352B0068712B /* SleepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A8252289352B0068712B /* SleepModel.swift */; };
+		D751A828228935580068712B /* SleepAddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A827228935580068712B /* SleepAddNewViewController.swift */; };
+		D751A82A2289357D0068712B /* SleepSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A8292289357D0068712B /* SleepSummaryViewController.swift */; };
+		D751A82E228936420068712B /* SleepImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D751A82C228936420068712B /* SleepImage.png */; };
+		D751A82F228936420068712B /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = D751A82D228936420068712B /* moon.png */; };
+		D751A831228A1C6E0068712B /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A830228A1C6E0068712B /* ClassesViewController.swift */; };
+		D751A833228A1CC70068712B /* AllAssignsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A832228A1CC70068712B /* AllAssignsViewController.swift */; };
+		D751A835228A1CF70068712B /* FakeAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A834228A1CF70068712B /* FakeAlertController.swift */; };
+		D751A837228A1D380068712B /* ClassFakeAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A836228A1D380068712B /* ClassFakeAlertController.swift */; };
+		D751A839228A1D8B0068712B /* ClassFakeAlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A838228A1D8B0068712B /* ClassFakeAlertDelegate.swift */; };
+		D751A83B228A1DD10068712B /* FakeAlertDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A83A228A1DD10068712B /* FakeAlertDelegate.swift */; };
+		D751A83D228A1E1D0068712B /* HomeworkPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A83C228A1E1D0068712B /* HomeworkPageViewController.swift */; };
+		D751A83F228A1E4C0068712B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A83E228A1E4C0068712B /* CalendarViewController.swift */; };
 		D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467A8225FC724009DE38C /* AppDelegate.swift */; };
 		D75467AE225FC724009DE38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75467AC225FC724009DE38C /* Main.storyboard */; };
-		D75467B1225FC724009DE38C /* umdplanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D75467AF225FC724009DE38C /* umdplanner.xcdatamodeld */; };
 		D75467B3225FC726009DE38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75467B2225FC726009DE38C /* Assets.xcassets */; };
 		D75467B6225FC726009DE38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75467B4225FC726009DE38C /* LaunchScreen.storyboard */; };
 		D75467C1225FC726009DE38C /* umdplannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467C0225FC726009DE38C /* umdplannerTests.swift */; };
 		D75467CC225FC726009DE38C /* umdplannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75467CB225FC726009DE38C /* umdplannerUITests.swift */; };
+		D79D90582278B4CF003AC83D /* model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D79D90562278B4CF003AC83D /* model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,15 +79,38 @@
 		D7097B832272A9DD001ABA6B /* ExerciseTypes.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ExerciseTypes.plist; sourceTree = "<group>"; };
 		D7097B872272AB09001ABA6B /* ExerciseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseType.swift; sourceTree = "<group>"; };
 		D71738BE2266A85B00BB068C /* FitnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessViewController.swift; sourceTree = "<group>"; };
-		D71738C02266A86A00BB068C /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
 		D71738C22266A87500BB068C /* FitnessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessModel.swift; sourceTree = "<group>"; };
 		D71BBE3C2271994600E66854 /* exerciseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exerciseCell.swift; sourceTree = "<group>"; };
-		D71F0A8A2273904100D739A4 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		D723F1DE22718EC600E79DD0 /* workoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = workoutCell.swift; path = /Users/robertchoe/code/School/436/umdplanner/umdplanner/umdplanner/Views/workoutCell.swift; sourceTree = "<absolute>"; };
+		D748A18C22821169000226EC /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Montserrat; path = ../../../../../../../Downloads/Montserrat; sourceTree = "<group>"; };
+		D748A18E228211C9000226EC /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../Downloads/Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		D748A190228212FF000226EC /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../../Downloads/Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D748A19522821323000226EC /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		D748A19622821323000226EC /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		D748A19722821323000226EC /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		D748A19822821323000226EC /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D748A19922821323000226EC /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D748A19A22821323000226EC /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		D748A19B22821323000226EC /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		D748A19C22821323000226EC /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		D748A19D22821323000226EC /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		D751A82322892D580068712B /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		D751A8252289352B0068712B /* SleepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepModel.swift; sourceTree = "<group>"; };
+		D751A827228935580068712B /* SleepAddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepAddNewViewController.swift; sourceTree = "<group>"; };
+		D751A8292289357D0068712B /* SleepSummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepSummaryViewController.swift; sourceTree = "<group>"; };
+		D751A82C228936420068712B /* SleepImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SleepImage.png; path = ../../../../../../../Downloads/umdplanner/umdplanner/SleepImage.png; sourceTree = "<group>"; };
+		D751A82D228936420068712B /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moon.png; path = ../../../../../../../Downloads/umdplanner/umdplanner/moon.png; sourceTree = "<group>"; };
+		D751A830228A1C6E0068712B /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		D751A832228A1CC70068712B /* AllAssignsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAssignsViewController.swift; sourceTree = "<group>"; };
+		D751A834228A1CF70068712B /* FakeAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAlertController.swift; sourceTree = "<group>"; };
+		D751A836228A1D380068712B /* ClassFakeAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassFakeAlertController.swift; sourceTree = "<group>"; };
+		D751A838228A1D8B0068712B /* ClassFakeAlertDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassFakeAlertDelegate.swift; sourceTree = "<group>"; };
+		D751A83A228A1DD10068712B /* FakeAlertDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeAlertDelegate.swift; sourceTree = "<group>"; };
+		D751A83C228A1E1D0068712B /* HomeworkPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkPageViewController.swift; sourceTree = "<group>"; };
+		D751A83E228A1E4C0068712B /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		D75467A5225FC723009DE38C /* umdplanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = umdplanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75467A8225FC724009DE38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D75467AD225FC724009DE38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D75467B0225FC724009DE38C /* umdplanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = umdplanner.xcdatamodel; sourceTree = "<group>"; };
 		D75467B2225FC726009DE38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75467B5225FC726009DE38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75467B7225FC726009DE38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +120,7 @@
 		D75467C7225FC726009DE38C /* umdplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = umdplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75467CB225FC726009DE38C /* umdplannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umdplannerUITests.swift; sourceTree = "<group>"; };
 		D75467CD225FC726009DE38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79D90572278B4CF003AC83D /* model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = model.xcdatamodel; sourceTree = "<group>"; };
 		E2FDF9257AB02AE8CCFF95DE /* Pods-umdplannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-umdplannerUITests.release.xcconfig"; path = "Target Support Files/Pods-umdplannerUITests/Pods-umdplannerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F2104007E22329597594DB14 /* Pods-umdplanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-umdplanner.release.xcconfig"; path = "Target Support Files/Pods-umdplanner/Pods-umdplanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,9 +181,10 @@
 		D71738BB2266A81C00BB068C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D71738BE2266A85B00BB068C /* FitnessViewController.swift */,
-				D7097B79227261DF001ABA6B /* addExerciseViewController.swift */,
-				D7097B7B227261FE001ABA6B /* viewExerciseViewController.swift */,
+				D751A843228A33140068712B /* Calendar */,
+				D751A842228A33080068712B /* Fitness */,
+				D751A841228A32F20068712B /* Sleep */,
+				D751A840228A32BB0068712B /* Assignmnets */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,10 +192,7 @@
 		D71738BC2266A83200BB068C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D723F1DE22718EC600E79DD0 /* workoutCell.swift */,
-				D71738C02266A86A00BB068C /* FitnessView.swift */,
-				D71BBE3C2271994600E66854 /* exerciseCell.swift */,
-				D7097B7F22729A2E001ABA6B /*  setCell.swift */,
+				D751A844228A33260068712B /* Fitness */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,14 +202,110 @@
 			children = (
 				D71738C22266A87500BB068C /* FitnessModel.swift */,
 				D7097B872272AB09001ABA6B /* ExerciseType.swift */,
-				D71F0A8A2273904100D739A4 /* test.swift */,
+				D751A8252289352B0068712B /* SleepModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D748A18B228210E6000226EC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D748A19422821323000226EC /* Merriweather */,
+				D748A18C22821169000226EC /* Montserrat */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		D748A19422821323000226EC /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				D748A19522821323000226EC /* Merriweather-Bold.ttf */,
+				D748A19622821323000226EC /* Merriweather-Regular.ttf */,
+				D748A19722821323000226EC /* Merriweather-Light.ttf */,
+				D748A19822821323000226EC /* Merriweather-BoldItalic.ttf */,
+				D748A19922821323000226EC /* Merriweather-BlackItalic.ttf */,
+				D748A19A22821323000226EC /* OFL.txt */,
+				D748A19B22821323000226EC /* Merriweather-Italic.ttf */,
+				D748A19C22821323000226EC /* Merriweather-Black.ttf */,
+				D748A19D22821323000226EC /* Merriweather-LightItalic.ttf */,
+			);
+			path = Merriweather;
+			sourceTree = "<group>";
+		};
+		D751A82B228936270068712B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D751A82D228936420068712B /* moon.png */,
+				D751A82C228936420068712B /* SleepImage.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D751A840228A32BB0068712B /* Assignmnets */ = {
+			isa = PBXGroup;
+			children = (
+				D751A832228A1CC70068712B /* AllAssignsViewController.swift */,
+				D751A83C228A1E1D0068712B /* HomeworkPageViewController.swift */,
+				D751A836228A1D380068712B /* ClassFakeAlertController.swift */,
+				D751A834228A1CF70068712B /* FakeAlertController.swift */,
+				D751A830228A1C6E0068712B /* ClassesViewController.swift */,
+			);
+			path = Assignmnets;
+			sourceTree = "<group>";
+		};
+		D751A841228A32F20068712B /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				D751A82322892D580068712B /* SleepViewController.swift */,
+				D751A827228935580068712B /* SleepAddNewViewController.swift */,
+				D751A8292289357D0068712B /* SleepSummaryViewController.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		D751A842228A33080068712B /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				D71738BE2266A85B00BB068C /* FitnessViewController.swift */,
+				D7097B79227261DF001ABA6B /* addExerciseViewController.swift */,
+				D7097B7B227261FE001ABA6B /* viewExerciseViewController.swift */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		D751A843228A33140068712B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D751A83E228A1E4C0068712B /* CalendarViewController.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		D751A844228A33260068712B /* Fitness */ = {
+			isa = PBXGroup;
+			children = (
+				D723F1DE22718EC600E79DD0 /* workoutCell.swift */,
+				D71BBE3C2271994600E66854 /* exerciseCell.swift */,
+				D7097B7F22729A2E001ABA6B /*  setCell.swift */,
+			);
+			path = Fitness;
+			sourceTree = "<group>";
+		};
+		D751A845228A33520068712B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D751A838228A1D8B0068712B /* ClassFakeAlertDelegate.swift */,
+				D751A83A228A1DD10068712B /* FakeAlertDelegate.swift */,
+				D75467A8225FC724009DE38C /* AppDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		D754679C225FC723009DE38C = {
 			isa = PBXGroup;
 			children = (
+				D748A190228212FF000226EC /* Montserrat-ExtraBold.ttf */,
+				D748A18E228211C9000226EC /* Montserrat-Regular.ttf */,
 				D75467A7225FC723009DE38C /* umdplanner */,
 				D75467BF225FC726009DE38C /* umdplannerTests */,
 				D75467CA225FC726009DE38C /* umdplannerUITests */,
@@ -194,16 +328,18 @@
 		D75467A7225FC723009DE38C /* umdplanner */ = {
 			isa = PBXGroup;
 			children = (
+				D751A845228A33520068712B /* Delegates */,
+				D751A82B228936270068712B /* Resource */,
+				D748A18B228210E6000226EC /* fonts */,
 				D71738BD2266A84000BB068C /* Models */,
 				D71738BC2266A83200BB068C /* Views */,
 				D71738BB2266A81C00BB068C /* Controllers */,
-				D75467A8225FC724009DE38C /* AppDelegate.swift */,
 				D75467AC225FC724009DE38C /* Main.storyboard */,
 				D75467B2225FC726009DE38C /* Assets.xcassets */,
 				D75467B4225FC726009DE38C /* LaunchScreen.storyboard */,
 				D7097B832272A9DD001ABA6B /* ExerciseTypes.plist */,
 				D75467B7225FC726009DE38C /* Info.plist */,
-				D75467AF225FC724009DE38C /* umdplanner.xcdatamodeld */,
+				D79D90562278B4CF003AC83D /* model.xcdatamodeld */,
 			);
 			path = umdplanner;
 			sourceTree = "<group>";
@@ -334,10 +470,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D748A18D22821169000226EC /* Montserrat in Resources */,
 				D7097B842272A9DD001ABA6B /* ExerciseTypes.plist in Resources */,
 				D75467B6225FC726009DE38C /* LaunchScreen.storyboard in Resources */,
 				D75467B3225FC726009DE38C /* Assets.xcassets in Resources */,
 				D75467AE225FC724009DE38C /* Main.storyboard in Resources */,
+				D748A18F228211C9000226EC /* Montserrat-Regular.ttf in Resources */,
+				D751A82F228936420068712B /* moon.png in Resources */,
+				D748A191228212FF000226EC /* Montserrat-ExtraBold.ttf in Resources */,
+				D751A82E228936420068712B /* SleepImage.png in Resources */,
+				D748A19E22821349000226EC /* Merriweather-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,12 +553,22 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-umdplanner/Pods-umdplanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
 				"${BUILT_PRODUCTS_DIR}/iOSDropDown/iOSDropDown.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDropDown.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,18 +605,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D751A82422892D580068712B /* SleepViewController.swift in Sources */,
 				D71BBE3D2271994600E66854 /* exerciseCell.swift in Sources */,
-				D71F0A8B2273904100D739A4 /* test.swift in Sources */,
 				D71738BF2266A85B00BB068C /* FitnessViewController.swift in Sources */,
+				D751A831228A1C6E0068712B /* ClassesViewController.swift in Sources */,
+				D751A83F228A1E4C0068712B /* CalendarViewController.swift in Sources */,
+				D751A837228A1D380068712B /* ClassFakeAlertController.swift in Sources */,
+				D751A828228935580068712B /* SleepAddNewViewController.swift in Sources */,
 				D7097B7A227261DF001ABA6B /* addExerciseViewController.swift in Sources */,
+				D751A8262289352B0068712B /* SleepModel.swift in Sources */,
 				D7097B8022729A2E001ABA6B /*  setCell.swift in Sources */,
+				D751A833228A1CC70068712B /* AllAssignsViewController.swift in Sources */,
 				D7097B882272AB09001ABA6B /* ExerciseType.swift in Sources */,
+				D751A839228A1D8B0068712B /* ClassFakeAlertDelegate.swift in Sources */,
+				D751A83D228A1E1D0068712B /* HomeworkPageViewController.swift in Sources */,
 				D723F1DF22718EC700E79DD0 /* workoutCell.swift in Sources */,
-				D75467B1225FC724009DE38C /* umdplanner.xcdatamodeld in Sources */,
 				D75467A9225FC724009DE38C /* AppDelegate.swift in Sources */,
-				D71738C12266A86A00BB068C /* FitnessView.swift in Sources */,
 				D71738C32266A87500BB068C /* FitnessModel.swift in Sources */,
+				D751A83B228A1DD10068712B /* FakeAlertDelegate.swift in Sources */,
 				D7097B7C227261FE001ABA6B /* viewExerciseViewController.swift in Sources */,
+				D751A82A2289357D0068712B /* SleepSummaryViewController.swift in Sources */,
+				D79D90582278B4CF003AC83D /* model.xcdatamodeld in Sources */,
+				D751A835228A1CF70068712B /* FakeAlertController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,13 +963,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D75467AF225FC724009DE38C /* umdplanner.xcdatamodeld */ = {
+		D79D90562278B4CF003AC83D /* model.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D75467B0225FC724009DE38C /* umdplanner.xcdatamodel */,
+				D79D90572278B4CF003AC83D /* model.xcdatamodel */,
 			);
-			currentVersion = D75467B0225FC724009DE38C /* umdplanner.xcdatamodel */;
-			path = umdplanner.xcdatamodeld;
+			currentVersion = D79D90572278B4CF003AC83D /* model.xcdatamodel */;
+			path = model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

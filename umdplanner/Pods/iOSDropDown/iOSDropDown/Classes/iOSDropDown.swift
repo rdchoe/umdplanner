@@ -306,15 +306,20 @@ extension DropDown: UITableViewDataSource {
         
         if indexPath.row != selectedIndex{
             cell!.backgroundColor = rowBackgroundColor
+            
         }else {
             cell?.backgroundColor = selectedRowColor
         }
+        
+        
+        
         
         cell!.textLabel!.text = "\(dataArray[indexPath.row])"
         cell!.accessoryType = indexPath.row == selectedIndex ? .checkmark : .none
         cell!.selectionStyle = .none
         cell?.textLabel?.font = self.font
         cell?.textLabel?.textAlignment = self.textAlignment
+        //cell!.textLabel?.textColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         return cell!
     }
 }

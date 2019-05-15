@@ -6,7 +6,10 @@ target 'umdplanner' do
   use_frameworks!
   # Pods for umdplanner
   pod 'iOSDropDown'
-
+  pod 'MaterialComponents/Buttons'
+  pod 'MaterialComponents/Buttons+ShapeThemer'
+  pod 'Charts'
+  pod 'FSCalendar'
   target 'umdplannerTests' do
     inherit! :search_paths
     # Pods for testing

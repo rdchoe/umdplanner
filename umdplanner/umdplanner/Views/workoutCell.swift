@@ -10,7 +10,8 @@ import UIKit
 import CoreData
 
 class workoutCell: UITableViewCell {
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var date: UILabel!
+    @IBOutlet private weak var collectionView: UICollectionView!
     func setCollectionViewDataSourceDelegate(dataSourceDelegate: UICollectionViewDataSource & UICollectionViewDelegate, forRow row: Int) {
         collectionView.delegate = dataSourceDelegate
         collectionView.dataSource = dataSourceDelegate
